@@ -39,7 +39,12 @@ class RAGDemo:
         
         # Display initialization header
         print("\n" + "╔" + "═"*(self.TOTAL_WIDTH) + "╗")
-        print("║" + " "*((self.TOTAL_WIDTH-30)//2) + "RAG System Demo" + " "*((self.TOTAL_WIDTH-30)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "______  ___  _____           ______     _____ " + " "*((self.TOTAL_WIDTH-50)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "| ___ \\/ _ \\|  __ \\          | ___ \\   /  __ \\" + " "*((self.TOTAL_WIDTH-50)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "| |_/ / /_\\ \\ |  \\/  ______  | |_/ /__ | /  \\/" + " "*((self.TOTAL_WIDTH-50)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "|    /|  _  | | __  |______| |  __/ _ \\| |    " + " "*((self.TOTAL_WIDTH-50)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "| |\\ \\| | | | |_\\ \\          | | | (_) | \\__/\\" + " "*((self.TOTAL_WIDTH-50)//2) + "║")
+        print("║" + " "*((self.TOTAL_WIDTH-50)//2) + "\\_| \\_\\_| |_/\\____/          \\_|  \\___/ \\____/" + " "*((self.TOTAL_WIDTH-50)//2) + "║")
         print("║" + "─"*(self.TOTAL_WIDTH) + "║")
         print("║  Welcome to the RAG (Retrieval Augmented Generation) Demo!" + " "*(self.TOTAL_WIDTH-63) + "║")
         print("║" + "─"*(self.TOTAL_WIDTH) + "║")
